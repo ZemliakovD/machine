@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -34,6 +35,10 @@
             </div>
             <div class="logo-location">
               <img src="img/icons/locaton.png" alt="Выезд мастера на дом" class="location-icon">
+              <div class="laction-text">
+                <p class="location-master">Выезд мастера:</p>
+                <p class="location-time">с 9.00 до 23.00 (без выходных)</p>
+              </div>
             </div>
             <button class="header-button button">Бесплатный выезд</button>
           </div>
@@ -58,23 +63,25 @@
                   </div>
                   <div class="mb-3 main-form-row">
                     <label for="exampleInputEmail1" class="form-label main-form-label">Имя</label>
-                    <input type="email" class="form-control main-form-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control main-form-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Как к вам обращаться">
                   </div>
                   <div class="mb-3 main-form-row">
                     <label for="exampleInputPassword1" class="form-label main-form-label">Пароль</label>
-                    <input type="password" class="form-control main-form-input" id="exampleInputPassword1">
+                    <input type="password" class="form-control main-form-input" id="exampleInputPassword1" placeholder="+375 (__) ___ - __ - __">
                   </div>
                   <div class="mb-3 form-check main-form-checkbox">
-                    <label class="form-check-label main-checkbox-text" for="exampleCheck1">Проверить меня</label>
+                    <label class="form-check-label main-checkbox-text" for="exampleCheck1">Отправляю данную форму даю согласие на обработку персональных данных</label>
                   </div>
-                  <button type="submit" class="btn btn-primary">Отправить</button>
+                  <button type="submit" class="btn btn-primary button main-form-button">Отправить</button>
                 </form>
               </div>
             </div>
             <div class="main-banner">
-              <p class="banner-text">Сервисная служба</p>
-              <h1 class="banner-title title">Ремонт стиральных машин <br> в Минске <br> с выездом мастера на дом</h1>
-              <p class="banner-description">Вернём Вам привычный бытовой комфорт и распорядок дня. Быстро устраним любые неисправности и поломки.</p>
+              <div class="banner-content">
+                <p class="banner-text">Сервисная служба</p>
+                <h1 class="banner-title title">Ремонт стиральных машин <br> в Минске <br> с выездом мастера на дом</h1>
+                <p class="banner-description">Вернём Вам привычный бытовой комфорт и распорядок дня. Быстро устраним любые неисправности и поломки.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -87,12 +94,14 @@
       <div class="row">
         <div class="col-12">
           <div class="sale-inner">
-            <div class="sale-info">
-              <p class="sale-text">Закажи ремонт стиральной машины до 31 декабря и получай скидку 15% на услуги парикмахерской «Венеция»</p>
-              <button class="sale-button button">Получить скидку</button>
-            </div>
-            <div class="sale-banner">
-              <img src="img/sale-icon.png" alt="Скидка на посещение парикмахерской" class="banner-icon">
+            <div class="sale-content">
+              <div class="sale-info">
+                <p class="sale-text">Закажи ремонт стиральной машины до 31 декабря и получай <span class="s-purple">скидку 15%</span> на услуги парикмахерской «Венеция»</p>
+                <button class="sale-button button">Получить скидку</button>
+              </div>
+              <div class="sale-banner">
+                <img src="img/sale-icon.png" alt="Скидка на посещение парикмахерской" class="banner-icon">
+              </div>
             </div>
           </div>
         </div>
@@ -129,7 +138,7 @@
               <div class="plate-item maline">
                 <div class="plate-item-inner">
                   <img src="img/icons/repair.png" alt="Оригинальные запчасти" class="plate-icon">
-                  <p class="plate-title">Оригинальные запчасти <br> для всех брендов</p>
+                  <p class="plate-title">Оригинальные <br> запчасти</p>
                 </div>
               </div>
             </div>
@@ -466,11 +475,92 @@
           <div class="feedback-inner">
             <h2 class="feedback-title subtitle">Лучше всего о нас расскажут отзывы довольных клиентов</h2>
             <p class="feedback-description"><span class="f-purple">Более 526</span> рекомендаций от партнеров, и положителных отзывов наших клиентов</p>
+
+            <div class="feedback-slider-inner">
+              <div class="feedback-slider">
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <p class="feedback-item-title">Очень довольны ремонтом! Быстро и качественно.</p>
+                    <p class="feedback-slider-description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный</p>
+                    <div class="feedback-person">
+                      <img src="img/icons/person.png" alt="Отзыв о ремонте стиралки" class="person-photo">
+                      <div class="person-info">
+                        <p class="person-name">Святослав Воробейников</p>
+                        <p class="person-date">22. июня 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <p class="feedback-item-title">Очень довольны ремонтом! Быстро и качественно.</p>
+                    <p class="feedback-slider-description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный</p>
+                    <div class="feedback-person">
+                      <img src="img/icons/person.png" alt="Отзыв о ремонте стиралки" class="person-photo">
+                      <div class="person-info">
+                        <p class="person-name">Святослав Воробейников</p>
+                        <p class="person-date">22. июня 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-inner">
+            <div class="footer-content">
+              <h2 class="content-title subtitle">Контакты</h2>
+
+              <a href="tel:+375333778882" class="footer-phone">+375 (33) 377-88-82</a>
+              <p class="footer-callback">Перезвоните мне</p>
+
+              <p class="footer-drive">Выезд мастера:</p>
+              <p class="footer-time">с 9.00 до 23.00 (без выходных)</p>
+
+              <div class="footec-social">
+                <img src="img/icons/telegram.png" alt="Вызвать мастера по ремонту стиральных машин в Telegram" class="social-icon telegram">
+                <img src="img/icons/viber.png" alt="ызвать мастера по ремонту стиральных машин в Viber" class="social-icon viber">
+              </div>
+            </div>
+            <div class="footer-form-inner">
+              <div class="footer-form-wrapper">
+                <p class="footer-form-title">У вас остались вопросы?</p>
+                <p class="footer-form-description">Оставьте контактные данные и наш мастер поможет разобраться в проблеме. При заказе с сайта Вы получите скидку – 10%</p>
+                <form class="row row-cols-lg-auto g-3 align-items-center footer-form">
+                  <div class="col-12 footer-form-row">
+                    <label class="visually-hidden footer-form-label" for="inlineFormInputGroupUsername">Имя</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control footer-form-input" id="inlineFormInputGroupUsername" placeholder="Имя пользователя">
+                    </div>
+                  </div>
+  
+                  <div class="col-12 footer-form-row">
+                    <label class="visually-hidden footer-form-label" for="inlineFormInputGroupUsername">Телефон</label>
+                    <div class="input-group footer-input-group">
+                      <input type="password" class="form-control main-form-input footer-form-input" id="exampleInputPassword1">
+                    </div>
+                  </div>
+                
+                  <div class="col-12 footer-form-row">
+                    <button type="submit" class="btn btn-primary footer-form-button">Оставить заявку</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
