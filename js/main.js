@@ -1,9 +1,10 @@
 $('.brands-slider').slick({
-    dots: true,
+    dots: false,
     infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    autoplay: true,
+    speed: 200,
+    slidesToShow: 6,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
