@@ -230,6 +230,7 @@ a{
     line-height: 40px;
     color: #121212;
     margin-bottom: 25px;
+    max-width: 635px;
 }
 
 .banner-description{
@@ -813,3 +814,354 @@ a{
     border: none;
 }
 
+@media (max-width:375px){
+    .logo-icon{
+        margin-right: 0;
+    }
+    
+    .icon-text{
+        display: none;
+    }
+
+    .loho-text{
+        display: none;
+    }
+
+    .phone-link{
+        font-size: 12px;
+    }
+
+    .logo-location{
+        display: none;
+    }
+
+    .header-button{
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+
+    .main{
+        margin-bottom: 30px;
+    }
+
+    .main-inner{
+        flex-direction: column-reverse;
+    }
+
+    .main-order{
+        margin-right: 0;
+    }
+
+    .order-inner{
+        padding: 30px;
+    }
+
+    .main-banner{
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .banner-content{
+        padding: 30px;
+    }
+
+    .banner-title{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .banner-description{
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .form-title{
+        font-size: 28px;
+    }
+
+    .form-subtilte, .callback-text{
+        font-size: 14px;
+    }
+
+    .main-form-input::placeholder{
+        font-size: 15px;
+    }
+
+    .sale{
+        margin-bottom: 80px;
+    }
+
+    .sale-text{
+        margin-right: 0;
+        max-width: 100%;
+        font-size: 25px;
+    }
+
+    .sale-content{
+        padding: 20px;
+    }
+
+    .sale-banner{
+        display: none;
+    }
+
+    .reasons{
+        margin-bottom: 50px
+    }
+
+    .reasons-title{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 34px;
+    }
+
+    .reasons-text{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+
+    .plate-item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .plate-title{
+        font-weight: 500;
+    }
+
+    .reasons-plates{
+        flex-direction: column;
+    }
+
+    .plans{
+        margin-bottom: 80px;
+    }
+
+    .plans-content{
+        flex-direction: column;
+        padding: 44px 20px;
+    }
+
+    .plans-info{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .plans-title{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .plans-text{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .plans-alert{
+        font-size: 14px;
+    }
+
+    .plans-banner-img{
+        width: 100%;
+    }
+
+    .brands{
+        margin-bottom: 80px;
+    }
+
+    .brands-title{
+        font-size: 28px;
+        line-height: 34px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .brands-slider-icon{
+        margin: 0 auto;
+    }
+
+    .problems{
+        margin-bottom: 80px;
+    }
+
+    .problems-inner{
+        padding: 80px 15px;
+    }
+
+    .problems-title{     
+        font-size: 28px;
+        line-height: 34px;
+        font-weight: 500;
+    }
+
+    .problems-text{
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .problems-cards{
+        flex-direction: column;
+    }
+
+    .problems-cards-item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .connect{
+        margin-bottom: 80px;
+    }
+
+    .connect-content{
+        padding: 40px 20px;
+    }
+
+    .connect-title{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
+    .connect-text, .connect-description{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .connect-form-row{
+        margin-right: 0;
+        width: 100% !important;
+    }
+
+    .connect-form-button{
+        background: #778CEB;
+        width: 100%;
+    }
+
+    .cost{
+        margin-bottom: 80px;
+    }
+
+    .cost-inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cost-title{
+        display: none;
+    }
+
+    .cost-content{
+        flex-direction: column;
+    }
+
+    .cost-info{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cost-info-title{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .cost-info-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .cost-banner, .cost-banner-img{
+        width: 100%;
+    }
+
+    .price{
+        margin-bottom: 80px;
+    }
+
+    .price-title{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .price-content{
+        flex-direction: column;
+    }
+
+    .price-info{
+        width: 100%;
+    }
+
+    .price-info-inner{
+        padding: 40px 25px;
+    }
+
+    .feedback{
+        margin-bottom: 80px;
+    }
+
+    .feedback-title{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .feedback-description{
+        margin-bottom: 20px;
+    }
+
+    .feedback-slider-item{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .feedback-item-title{
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 32px;
+        max-width: 100%;
+    }
+
+    .footer-inner{
+        flex-direction: column;
+        padding-bottom: 110px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .footer-content{
+        width: 100%;
+    }
+
+    .content-title{
+        font-weight: 500;
+    }
+
+    .footer-form-inner{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
