@@ -48,7 +48,7 @@ $('.brands-slider').slick({
   $('.feedback-slider').slick({
     slidesToShow: 2,
     slidesToScroll: 2,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
       {
@@ -88,4 +88,12 @@ $('.brands-slider').slick({
       // settings: "unslick"
       // instead of a settings object
     ]
+  });
+
+  $('.problems-cards').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
   });

@@ -102,6 +102,37 @@ a{
     padding: 5px 24px;
 }
 
+.modal-form-title{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 52px;
+    margin-bottom: 5px;
+}
+
+.modal-form-description, .modal-checkbox-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4F4F4F;
+}
+
+.modal-form-label{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.modal-form-button{
+    background: #778CEB;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 15px 87px;
+    border: none;
+}
+
 .main{
     background: #F6FAFF;
 }
@@ -501,6 +532,11 @@ a{
     font-weight: 700;
     font-size: 14px;
     line-height: 30px;
+    display: inline-block;
+}
+
+.problems-button:hover{
+    color: #fff;
 }
 
 .connect-inner{

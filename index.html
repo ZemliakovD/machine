@@ -26,10 +26,10 @@
             <div class="logo-inner">
               <div class="logo-mg">
                 <img src="img/icons/logo.png" alt="Ремонт стиральных машин" class="logo-icon">
-                <p class="icon-text">vipremont<span class="orange">24</span>.by</p>
+                <p class="icon-text"><span class="orange">ПРО</span>СТИРАЛКИ</p>
               </div>
             </div>
-            <p class="loho-text">Ремонт стиральных машин <br> в Минске</p>
+            <p class="loho-text">Мастер по ремонту <br> в Минске</p>
             <div class="logo-phone">
               <img src="img/icons/phone.png" alt="Вызов мастера на дом" class="phone-icon">
               <a href="tel:+375291570570" class="phone-link">+375 29 1-570-570</a>
@@ -37,11 +37,48 @@
             <div class="logo-location">
               <img src="img/icons/locaton.png" alt="Выезд мастера на дом" class="location-icon">
               <div class="laction-text">
-                <p class="location-master">Выезд мастера:</p>
-                <p class="location-time">с 9.00 до 23.00 (без выходных)</p>
+                <p class="location-master">Выезд на дом:</p>
+                <p class="location-time">с 9.00 до 21.00 (без выходных)</p>
               </div>
             </div>
-            <button class="header-button button">Бесплатный выезд</button>
+            <button type="button" class="btn btn-primary header-button button" data-bs-toggle="modal" data-bs-target="#exampleModal">Бесплатный выезд</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="modal-form-inner">
+                      <div class="modal-form-wrapper">
+                        <p class="modal-form-title">Ремонт стиральных машин на дому!</p>
+                        <p class="modal-form-description">При обращение в нашу компанию выезд мастера на дом и <span class="orange">дигностика бесплатно</span>!</p>
+                        <form class="row row-cols-lg-auto g-3 align-items-center modal-form">
+                          <div class="col-6 modal-form-row">
+                            <label class="modal-form-label" for="inlineFormInputGroupUsername">Имя</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control main-form-input modal-form-input" id="inlineFormInputGroupUsername" placeholder="Как к Вам обращаться">
+                            </div>
+                          </div>
+          
+                          <div class="col-6 modal-form-row">
+                            <label class="modal-form-label" for="inlineFormInputGroupUsername">Телефон</label>
+                            <div class="input-group modal-input-group">
+                              <input type="text" class="form-control main-form-input modal-form-input" id="exampleInputPassword1" placeholder="+375 (29) ___ - __ - __">
+                            </div>
+                          </div>
+                          <div class="mb-12 form-check modal-form-checkbox">
+                            <label class="form-check-label modal-checkbox-text" for="exampleCheck1">Отправляю данную форму даю согласие на обработку персональных данных</label>
+                          </div>
+                        
+                          <div class="col-12 modal-form-row">
+                            <button type="submit" class="btn btn-secondary modal-form-button">Оставить заявку</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -60,7 +97,7 @@
                   <p class="form-subtilte">Вызовите мастера прямо сейчас или к удобному времени и <span class="orange">получите скидку - 10%</span></p>
                   <div class="callback">
                     <img src="img/icons/callback.png" alt="" class="callback-icon">
-                    <p class="callback-text">перезвоним в течении 15 минут</p>
+                    <p class="callback-text">перезвоним в течение 15 минут</p>
                   </div>
                   <div class="mb-3 main-form-row">
                     <label for="exampleInputEmail1" class="form-label main-form-label">Имя</label>
@@ -68,12 +105,12 @@
                   </div>
                   <div class="mb-3 main-form-row">
                     <label for="exampleInputPassword1" class="form-label main-form-label">Пароль</label>
-                    <input type="text" class="form-control main-form-input" id="exampleInputPassword1" placeholder="+375 (__) ___ - __ - __">
+                    <input type="text" class="form-control main-form-input" id="exampleInputPassword1" placeholder="+375 (29) ___ - __ - __">
                   </div>
                   <div class="mb-3 form-check main-form-checkbox">
                     <label class="form-check-label main-checkbox-text" for="exampleCheck1">Отправляю данную форму даю согласие на обработку персональных данных</label>
                   </div>
-                  <button type="submit" class="btn btn-primary button main-form-button">Отправить</button>
+                  <button type="submit" class="btn btn-primary button main-form-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Отправить</button>
                 </form>
               </div>
             </div>
@@ -97,7 +134,7 @@
           <div class="sale-inner">
             <div class="sale-content">
               <div class="sale-info">
-                <p class="sale-text">Закажи ремонт стиральной машины до 31 декабря и получай <span class="s-purple">скидку 15%</span> на услуги парикмахерской «Венеция»</p>
+                <p class="sale-text">Закажи ремонт стиральной машины и получи купон на <span class="s-purple">скидку 15%</span> на услуги парикмахерской «Венеция»</p>
                 <button class="sale-button button">Получить скидку</button>
               </div>
               <div class="sale-banner">
@@ -127,7 +164,7 @@
               <div class="plate-item cream">
                 <div class="plate-item-inner">
                   <img src="img/icons/garant.png" alt="Гарантия на работы" class="plate-icon">
-                  <p class="plate-title">Гарантия <br> на работы от 1 года</p>
+                  <p class="plate-title">Гарантия <br> на работы до 1 года</p>
                 </div>
               </div>
               <div class="plate-item purple">
@@ -157,8 +194,8 @@
             <div class="plans-content">
               <div class="plans-info">
                 <h2 class="plans-title subtitle">Поломка стиральной <br> машины не испортит <br> Ваших планов</h2>
-                <p class="plans-text">Мы работаем ежедневно, с 9:00 до 23:00. Без праздников и выходных. Выезд мастера осуществляется в течение 10 минут после оформления заявки. Или в любое удобное для Вас время.</p>
-                <p class="plans-alert">Также мы осуществляем бесплатный выезд и диагностику по пригороду в пределах 30 км. Если Вы живёте дальше, не переживайте, мы всегда найдём взаимовыгодное решение. (за 30км от Минска выезд платный)</p>
+                <p class="plans-text">Мы работаем ежедневно, с 9:00 до 21:00. Без праздников и выходных. Выезд мастера осуществляется в течение 10 минут после оформления заявки. Или в любое удобное для Вас время.</p>
+                <p class="plans-alert">Также мы осуществляем бесплатный выезд и диагностику по пригороду в пределах 10 км. Если Вы живёте дальше, не переживайте, мы всегда найдём взаимовыгодное решение (за 10 км от Минска выезд платный).</p>
               </div>
               <div class="plans-banner">
                 <img src="img/plans-banner.png" alt="Ремонт стиралок в Минске" class="plans-banner-img">
@@ -240,22 +277,22 @@
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Сломалась кнопка «старт/стоп»</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Неисправен фильтр помех (ФПС)</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Вышел из строя программатор (КСМА)</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Неисправность электронного модуля</p>
                       </div>
                     </div>
-                    <button class="problems-button button">У меня такая проблема</button>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
                   </div>
                 </div>
               </div>
@@ -269,26 +306,26 @@
                     <div class="cards-list">
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Проблема со сливом воды" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Засор в фильтре или патрубке</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Проблема со сливом воды" class="card-item-icon">
-                        <p class="card-item-text">Сломалась кнопка «старт/стоп»</p>
+                        <p class="card-item-text">Сломался сливной насос (помпа)</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Проблема со сливом воды" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Вышел из строя управляющий модуль</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Проблема со сливом воды" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Сломан датчик уровня воды</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Проблема со сливом воды" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Повреждена плата</p>
                       </div>
                     </div>
-                    <button class="problems-button button">У меня такая проблема</button>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
                   </div>
                 </div>
               </div>
@@ -302,26 +339,191 @@
                     <div class="cards-list">
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Протекает сливной/заливной шланг</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Протекает патрубок</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Засор в дозаторе для моющих средств</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Повреждена манжета люка</p>
                       </div>
                       <div class="cards-list-item">
                         <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
-                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                        <p class="card-item-text">Протекает сливной насос</p>
                       </div>
                     </div>
-                    <button class="problems-button button">У меня такая проблема</button>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
+                  </div>
+                </div>
+              </div>
+              <div class="problems-cards-item">
+                <div class="problems-cards-top">
+                  <img src="img/otjim.jpg" alt="Течет вода под стиральной машиной" class="top-cards-img">
+                </div>
+                <div class="problems-cards-bottom">
+                  <div class="bottom-cards-inner">
+                    <p class="cards-title">Не отжимает</p>
+                    <div class="cards-list">
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломан КСМА</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломан электронный модуль</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Неисправность мотора</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Растяжение приводного ремня</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Неисправность датчика температуры</p>
+                      </div>
+                    </div>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
+                  </div>
+                </div>
+              </div>
+              <div class="problems-cards-item">
+                <div class="problems-cards-top">
+                  <img src="img/negreet.jpg" alt="Течет вода под стиральной машиной" class="top-cards-img">
+                </div>
+                <div class="problems-cards-bottom">
+                  <div class="bottom-cards-inner">
+                    <p class="cards-title">Не греет воду</p>
+                    <div class="cards-list">
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Вышел из строя ТЭН</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломался датчик температуры</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Вышел из строя электронный модуль</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломался программатор (КСМА)</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Повреждена электронная плата</p>
+                      </div>
+                    </div>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
+                  </div>
+                </div>
+              </div>
+              <div class="problems-cards-item">
+                <div class="problems-cards-top">
+                  <img src="img/baraban.jpg" alt="Течет вода под стиральной машиной" class="top-cards-img">
+                </div>
+                <div class="problems-cards-bottom">
+                  <div class="bottom-cards-inner">
+                    <p class="cards-title">Не крутится барабан</p>
+                    <div class="cards-list">
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Вышел из строя ТЭН</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломался датчик температуры</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Вышел из строя электронный модуль</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломался программатор (КСМА)</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Повреждена электронная плата</p>
+                      </div>
+                    </div>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
+                  </div>
+                </div>
+              </div>
+              <div class="problems-cards-item">
+                <div class="problems-cards-top">
+                  <img src="img/luk.jpg" alt="Течет вода под стиральной машиной" class="top-cards-img">
+                </div>
+                <div class="problems-cards-bottom">
+                  <div class="bottom-cards-inner">
+                    <p class="cards-title">Не открывается люк</p>
+                    <div class="cards-list">
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломалась ручка люка</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломано устройство блокировки люка</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Неисправен управляющий модуль</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Сломался программатор (КСМА)</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Неисправен фильтр помех (ФПС)</p>
+                      </div>
+                    </div>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
+                  </div>
+                </div>
+              </div>
+              <div class="problems-cards-item">
+                <div class="problems-cards-top">
+                  <img src="img/shum.jpg" alt="Течет вода под стиральной машиной" class="top-cards-img">
+                </div>
+                <div class="problems-cards-bottom">
+                  <div class="bottom-cards-inner">
+                    <p class="cards-title">Сильно шумит</p>
+                    <div class="cards-list">
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Вышли из строя подшипники</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Инородный предмет в баке</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Разболтались болты противовеса</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Не сняты транспортировачные болты</p>
+                      </div>
+                      <div class="cards-list-item">
+                        <img src="img/icons/problems.png" alt="Не работает стиралка" class="card-item-icon">
+                        <p class="card-item-text">Вышли из строя амортизаторы</p>
+                      </div>
+                    </div>
+                    <a href="tel:+375291570570" class="problems-button button">У меня такая проблема</a>
                   </div>
                 </div>
               </div>
@@ -338,9 +540,9 @@
         <div class="col-12">
           <div class="connect-inner">
             <div class="connect-content">
-              <h2 class="connect-title subtitle">Не нашли свою проблему?</h2>
-              <p class="connect-text">Оставьте контактные данные и наш мастер поможет разобраться в проблеме.</p>
-              <p class="connect-description">При заказе с сайта Вы получите скидку – 10%</p>
+              <h2 class="connect-title subtitle">Не нашли Вашу проблему?</h2>
+              <p class="connect-text">Напишите нам и мы найдет самое выгодное решение!</p>
+              <p class="connect-description">А при заказе с сайта Вы получите дополнительную <span class="orange">скидку 10%</span></p>
   
               <div class="connect-form-inner">
                 <form class="row row-cols-lg-auto g-3 align-items-center connect-form">
@@ -354,7 +556,7 @@
                   <div class="col-4 connect-form-row">
                     <label class="connect-form-label" for="inlineFormInputGroupUsername">Телефон</label>
                     <div class="input-group connect-input-group">
-                      <input type="text" class="form-control main-form-input connect-form-input" id="exampleInputPassword1" placeholder="+375 (__) ___ - __ - __">
+                      <input type="text" class="form-control main-form-input connect-form-input" id="exampleInputPassword1" placeholder="+375 (29) ___ - __ - __">
                     </div>
                   </div>
                 
@@ -398,57 +600,57 @@
       <div class="row">
         <div class="col-12">
           <div class="price-inner">
-            <h2 class="price-title subtitle">Цены на некоторые ремонтные услуги:</h2>
+            <h2 class="price-title subtitle">Стоимость ремонта стиральной машины:</h2>
             <div class="price-content">
               <div class="price-info">
                 <div class="price-info-inner">
                   <div class="price-info-item">
                     <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-cost">От 50 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Открытие люка без ремонта</p>
+                    <p class="info-cost">От 35 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Замена сливного шланга</p>
+                    <p class="info-cost">От 40 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Замена сливного фильтра</p>
+                    <p class="info-cost">От 50 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Чистка сливного фильтра</p>
+                    <p class="info-cost">От 35 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Чистка заливного фильтра</p>
+                    <p class="info-cost">От 30 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Устранение течи</p>
+                    <p class="info-cost">От 35 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Снятие транспортировочных болтов</p>
+                    <p class="info-cost">От 45 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Ремонт или замена патрубка</p>
+                    <p class="info-cost">От 45 руб</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Диагностика</p>
+                    <p class="info-cost">Бесплатно при заказе ремонта</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Выезд мастера</p>
+                    <p class="info-cost">Бесплатно при заказе ремонта</p>
                   </div>
                   <div class="price-info-item">
-                    <p class="info-name">Замена ручки люка</p>
-                    <p class="info-cost">от 50 руб</p>
+                    <p class="info-name">Выезд мастера за город (30 км)</p>
+                    <p class="info-cost">Платный, оплачивается в одну сторону</p>
                   </div>
                 </div>
               </div>
@@ -467,7 +669,7 @@
                     </div>
                     <div class="mb-3 main-form-row">
                       <label for="exampleInputPassword1" class="form-label main-form-label">Пароль</label>
-                      <input type="text" class="form-control main-form-input" id="exampleInputPassword1" placeholder="+375 (__) ___ - __ - __">
+                      <input type="text" class="form-control main-form-input" id="exampleInputPassword1" placeholder="+375 (29) ___ - __ - __">
                     </div>
                     <div class="mb-3 form-check main-form-checkbox">
                       <label class="form-check-label main-checkbox-text" for="exampleCheck1">Отправляю данную форму даю согласие на обработку персональных данных</label>
@@ -489,35 +691,52 @@
         <div class="col-12">
           <div class="feedback-inner">
             <h2 class="feedback-title subtitle">Лучше всего о нас расскажут <br> отзывы довольных клиентов</h2>
-            <p class="feedback-description"><span class="f-purple">Более 526</span> рекомендаций от партнеров, и положителных отзывов наших клиентов</p>
+            <p class="feedback-description"><span class="f-purple">Более 527</span> рекомендаций от партнеров, и положителных отзывов наших клиентов</p>
 
             <div class="feedback-slider-inner">
               <div class="feedback-slider">
                 <div class="feedback-slider-item">
                   <div class="feedback-item-wrapper">
-                    <p class="feedback-item-title">Очень довольны ремонтом! Быстро и качественно.</p>
-                    <p class="feedback-slider-description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный</p>
-                    <div class="feedback-person">
-                      <img src="img/icons/person.png" alt="Отзыв о ремонте стиралки" class="person-photo">
-                      <div class="person-info">
-                        <p class="person-name">Святослав Воробейников</p>
-                        <p class="person-date">22 июня 2022</p>
-                      </div>
-                    </div>
+                    <img src="img/feedback/feed1.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
                   </div>
                 </div>
                 <div class="feedback-slider-item">
                   <div class="feedback-item-wrapper">
-                    <p class="feedback-item-title">Очень довольны ремонтом! Быстро и качественно.</p>
-                    <p class="feedback-slider-description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный</p>
-                    <div class="feedback-person">
-                      <img src="img/icons/person.png" alt="Отзыв о ремонте стиралки" class="person-photo">
-                      <div class="person-info">
-                        <p class="person-name">Святослав Воробейников</p>
-                        <p class="person-date">22 июня 2022</p>
-                      </div>
-                    </div>
+                    <img src="img/feedback/feed2.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
                   </div>
+                </div>
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <img src="img/feedback/feed3.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
+                  </div>
+                </div>
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <img src="img/feedback/feed4.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
+                  </div>
+                </div>
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <img src="img/feedback/feed5.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
+                  </div>
+                </div>
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <img src="img/feedback/feed6.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
+                  </div>
+                </div>
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <img src="img/feedback/feed7.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
+                  </div>
+                </div>
+                <div class="feedback-slider-item">
+                  <div class="feedback-item-wrapper">
+                    <img src="img/feedback/feed8.jpg" alt="Мастер по ремонту стиральных машин отзывы" class="feedback-item-photo">
+                  </div>
+                </div>
+                </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -535,15 +754,19 @@
             <div class="footer-content">
               <h2 class="content-title subtitle">Контакты</h2>
 
-              <a href="tel:+375333778882" class="footer-phone">+375 (33) 377-88-82</a>
-              <p class="footer-callback">Перезвоните мне</p>
+              <a href="tel:+375333778882" class="footer-phone">+375 (29) 1-570-570</a>
+              <p class="footer-callback" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Перезвоните мне</p>
 
               <p class="footer-drive">Выезд мастера:</p>
-              <p class="footer-time">с 9.00 до 23.00 (без выходных)</p>
+              <p class="footer-time">с 9.00 до 21.00 (без выходных)</p>
 
               <div class="footec-social">
-                <img src="img/icons/telegram.png" alt="Вызвать мастера по ремонту стиральных машин в Telegram" class="social-icon telegram">
-                <img src="img/icons/viber.png" alt="ызвать мастера по ремонту стиральных машин в Viber" class="social-icon viber">
+                <a href="https://t.me/A_Kirill_83" target="_blank" class="footer-socilal-link">
+                  <img src="img/icons/telegram.png" alt="Вызвать мастера по ремонту стиральных машин в Telegram" class="social-icon telegram">
+                </a>
+                <a href="viber://chat?number=%2B375333778882/" target="_blank" class="footer-social-link">
+                  <img src="img/icons/viber.png" alt="ызвать мастера по ремонту стиральных машин в Viber" class="social-icon viber">
+                </a>
               </div>
             </div>
             <div class="footer-form-inner">
@@ -561,7 +784,7 @@
                   <div class="col-6 footer-form-row">
                     <label class="footer-form-label" for="inlineFormInputGroupUsername">Телефон</label>
                     <div class="input-group footer-input-group">
-                      <input type="text" class="form-control main-form-input footer-form-input" id="exampleInputPassword1" placeholder="+375 (__) ___ - __ - __">
+                      <input type="text" class="form-control main-form-input footer-form-input" id="exampleInputPassword1" placeholder="+375 (29) ___ - __ - __">
                     </div>
                   </div>
                   <div class="mb-12 form-check footer-form-checkbox">
@@ -579,17 +802,6 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
-
-
-
-
-
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
